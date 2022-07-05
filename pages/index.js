@@ -1,7 +1,9 @@
-export default function HomePage() {
+export default function Landing() {
     return (
         <>
-            <div>Landing page test.</div>
+            <a href={"#landing"}><small className={"hint"} id={"landing"}>/ #landing</small></a>
+            <h1>Hello!</h1>
+
         </>
     )
 }
